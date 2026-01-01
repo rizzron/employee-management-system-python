@@ -1,5 +1,5 @@
-from FullTimeEmployee import *
-from PartTimeEmployee import *
+from full_time_employee import *
+from part_time_employee import *
 
 
 rizz = FullTimeEmployee("Rizvy Kamal", "1", 3000)

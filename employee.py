@@ -7,8 +7,3 @@ class Employee:
         self.__id = id
         print(f"Employee '{self.name}' is created.")
 
-    def set_id(self, new_id):
-        self.__id = new_id
-
-    def get_id(self):
-        return self.__id
