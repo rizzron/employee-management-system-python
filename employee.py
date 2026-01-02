@@ -5,5 +5,4 @@ class Employee:
     def __init__(self, name, id):
         self.name = name
         self.__id = id
-        print(f"Employee '{self.name}' is created.")
 

@@ -1,9 +1,13 @@
-from full_time_employee import *
-from part_time_employee import *
+from manager import *
+from annotator import *
 
 
-rizz = FullTimeEmployee("Rizvy Kamal", "1", 3000)
+rizz = Manager("Rizvy Kamal", "1", 3000)
 rizz.get_info()
+rizz.give_increment()
+rizz.get_salary()
 
-fizz = PartTimeEmployee("Mustafizur Rahman", "2", 1500)
+fizz = Annotator("Mustafizur Rahman", "2", 1500)
 fizz.get_info()
+fizz.give_increment()
+fizz.get_salary()
