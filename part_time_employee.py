@@ -4,14 +4,10 @@ from abc import ABC, abstractmethod
 
 class PartTimeEmployee(Employee):
     employment_type: str = "Part Time Employee"
-    def __init__(self, name: str, id: str, salary: int):
-        self.name = name
-        self.__id = id
-        self.salary = salary
 
-    @abstractmethod
-    def set_id(self, new_id):
-        pass
+    def __init__(self, name: str, salary: int):
+        super().__init__(name)
+        self.salary = salary
 
     @abstractmethod
     def get_salary(self):
