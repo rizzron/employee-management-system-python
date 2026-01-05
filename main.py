@@ -21,3 +21,5 @@ ems.get_employee_details_by_name("Rizvy Kamal")
 ems.get_employee_details_by_id(2)
 
 ems.get_all_employee()
+ems.get_employee_by_role("Manager")
+ems.get_employee_by_role("Annotator")

@@ -39,3 +39,11 @@ class EMS:
     def get_all_employee(self):
         for emp in self.employees:
             print(emp.name)
+
+    def get_employee_by_role(self, emp_role: str):
+        print(f"The employees with the {emp_role} role are given below: ")
+        for emp in self.employees:
+            if emp.role == emp_role:
+                print(emp.name)
+
+
