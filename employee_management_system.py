@@ -46,4 +46,9 @@ class EMS:
             if emp.role == emp_role:
                 print(emp.name)
 
+    def get_employee_by_salary(self, min_salary: int, max_salary: int):
+        print(f"The employees with the salary range of {min_salary} and {max_salary} is given below: ")
+        for emp in self.employees:
+            if min_salary <= emp.salary <= max_salary:
+                print(emp.name)
 
